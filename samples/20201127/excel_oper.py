@@ -1,0 +1,10 @@
+import xlrd
+workbook = xlrd.open_workbook('C:\\Users\\BTI-PC-Z66133-008\\Desktop\\test_vlaue.xlsx')
+sheet = workbook.sheet_by_name('Sheet1')
+# cell_value_1= sheet.cell_value(1,0)
+# print('1:'+str(cell_value_1))
+# cell_value_2= sheet.cell_value(2,0)
+# print('2'+str(cell_value_2))
+# cell_value_3= sheet.cell_value(2,0)
+# print('3'+str(cell_value_3))
+print(sheet.merged_cells)
